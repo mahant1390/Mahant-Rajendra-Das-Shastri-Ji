@@ -21,6 +21,8 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { FaWhatsapp } from "react-icons/fa"
+import { GiLotus } from "react-icons/gi"
 
 export default function KaalSarpDoshWebsite() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -95,7 +97,26 @@ export default function KaalSarpDoshWebsite() {
   ]
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white relative">
+      {/* Om SVG Background for spiritual vibes */}
+      <div className="fixed inset-0 pointer-events-none z-0 opacity-10 select-none">
+        <svg width="100%" height="100%" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <text x="50%" y="30%" textAnchor="middle" fontSize="120" fill="#f59e42" opacity="0.15" fontFamily="serif">ॐ</text>
+          <text x="20%" y="80%" textAnchor="middle" fontSize="80" fill="#fbbf24" opacity="0.12" fontFamily="serif">ॐ</text>
+          <text x="80%" y="60%" textAnchor="middle" fontSize="100" fill="#fb7185" opacity="0.10" fontFamily="serif">ॐ</text>
+        </svg>
+      </div>
+      {/* Floating WhatsApp Button */}
+      <a
+        href="https://wa.me/919709701630?text=Hi"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16 animate-bounce"
+        title="Chat on WhatsApp"
+        style={{ boxShadow: '0 4px 24px 0 rgba(34,197,94,0.3)' }}
+      >
+        <FaWhatsapp size={36} />
+      </a>
       {/* Top Contact Bar */}
       <div className="bg-gray-100 py-2 px-4 text-sm">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
@@ -188,6 +209,16 @@ export default function KaalSarpDoshWebsite() {
 
       {/* Hero Section */}
       <section id="home" className="relative min-h-screen bg-gradient-to-r from-orange-100 to-red-100 overflow-hidden">
+        {/* Swastika PNG background for Hero section */}
+        <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 select-none">
+          <img
+            src="/swastika.png"
+            alt="Swastika Spiritual Background"
+            className="w-[60vw] max-w-[600px] opacity-20 mix-blend-multiply"
+            style={{ filter: 'drop-shadow(0 0 40px #f59e42)' }}
+          />
+        </div>
+
         <div className="absolute inset-0 bg-black/20"></div>
         {/* Floating animation elements */}
         <div className="absolute inset-0 overflow-hidden">
@@ -412,33 +443,48 @@ export default function KaalSarpDoshWebsite() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <Card className="text-center p-8 hover:shadow-xl transition-shadow duration-300 border-t-4 border-orange-600">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            {/* Spiritual spiral/rounded card with prominent Om background */}
+            <Card className="relative text-center p-8 rounded-3xl shadow-xl border-t-4 border-orange-600 overflow-hidden group hover:scale-105 transition-transform duration-300 bg-orange-50">
+              {/* Prominent Om SVG background */}
+              <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
+                <svg width="100%" height="100%" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <text x="50%" y="60%" textAnchor="middle" fontSize="200" fill="#f59e42" opacity="0.35" fontFamily="serif" style={{ filter: 'drop-shadow(0 0 24px #f59e42)' }}>ॐ</text>
+                </svg>
+              </div>
+              <div className="relative z-10 w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                 <Award className="w-8 h-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Authentic Rituals</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">Authentic Rituals</h3>
+              <p className="text-gray-600 relative z-10">
                 Every puja is performed according to ancient Vedic traditions with proper mantras, offerings, and
                 procedures
               </p>
             </Card>
-
-            <Card className="text-center p-8 hover:shadow-xl transition-shadow duration-300 border-t-4 border-orange-600">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <Card className="relative text-center p-8 rounded-3xl shadow-xl border-t-4 border-orange-600 overflow-hidden group hover:scale-105 transition-transform duration-300 bg-orange-50">
+              <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
+                <svg width="100%" height="100%" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <text x="50%" y="60%" textAnchor="middle" fontSize="200" fill="#f59e42" opacity="0.35" fontFamily="serif" style={{ filter: 'drop-shadow(0 0 24px #f59e42)' }}>ॐ</text>
+                </svg>
+              </div>
+              <div className="relative z-10 w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                 <Users className="w-8 h-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Expert Guidance</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">Expert Guidance</h3>
+              <p className="text-gray-600 relative z-10">
                 Our experienced pandits provide personalized consultation and guidance throughout your spiritual journey
               </p>
             </Card>
-
-            <Card className="text-center p-8 hover:shadow-xl transition-shadow duration-300 border-t-4 border-orange-600">
-              <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <Card className="relative text-center p-8 rounded-3xl shadow-xl border-t-4 border-orange-600 overflow-hidden group hover:scale-105 transition-transform duration-300 bg-orange-50">
+              <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
+                <svg width="100%" height="100%" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <text x="50%" y="60%" textAnchor="middle" fontSize="200" fill="#f59e42" opacity="0.35" fontFamily="serif" style={{ filter: 'drop-shadow(0 0 24px #f59e42)' }}>ॐ</text>
+                </svg>
+              </div>
+              <div className="relative z-10 w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                 <Star className="w-8 h-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-800">Proven Results</h3>
-              <p className="text-gray-600">
+              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">Proven Results</h3>
+              <p className="text-gray-600 relative z-10">
                 Thousands of devotees have experienced positive changes in their lives after our puja services
               </p>
             </Card>
@@ -600,39 +646,46 @@ export default function KaalSarpDoshWebsite() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">About Kaal Sarp Dosh</h2>
+      <section id="about" className="py-20 bg-white relative">
+        {/* Om SVG background for About section */}
+        <div className="absolute inset-0 pointer-events-none z-0 opacity-10 select-none">
+          <svg width="100%" height="100%" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <text x="60%" y="30%" textAnchor="middle" fontSize="120" fill="#f59e42" opacity="0.10" fontFamily="serif">ॐ</text>
+            <text x="30%" y="80%" textAnchor="middle" fontSize="80" fill="#fbbf24" opacity="0.08" fontFamily="serif">ॐ</text>
+          </svg>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4">
+          <div className="text-center mb-16 flex flex-col items-center">
+            <span className="text-5xl text-orange-600 animate-pulse mb-2">ॐ</span>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-2">
+              About Kaal Sarp Dosh
+            </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Kaal Sarp Dosh is formed when all planets come between Rahu and Ketu. This creates obstacles in life,
               career, and relationships.
             </p>
           </div>
-
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <Card className="text-center p-6 hover:shadow-lg transition-shadow">
+            <Card className="text-center p-6 hover:shadow-lg transition-shadow relative z-10">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Star className="w-8 h-8 text-orange-600" />
+                <span className="text-4xl text-orange-600 animate-pulse">ॐ</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Authentic Rituals</h3>
+              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ Authentic Rituals</h3>
               <p className="text-gray-600">Traditional Vedic rituals performed according to ancient scriptures</p>
             </Card>
-
-            <Card className="text-center p-6 hover:shadow-lg transition-shadow">
+            <Card className="text-center p-6 hover:shadow-lg transition-shadow relative z-10">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-orange-600" />
+                <span className="text-4xl text-orange-600 animate-pulse">ॐ</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Experienced Pandits</h3>
+              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ Experienced Pandits</h3>
               <p className="text-gray-600">Qualified and experienced pandits with deep knowledge of scriptures</p>
             </Card>
-
-            <Card className="text-center p-6 hover:shadow-lg transition-shadow">
+            <Card className="text-center p-6 hover:shadow-lg transition-shadow relative z-10">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-orange-600" />
+                <span className="text-4xl text-orange-600 animate-pulse">ॐ</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3">Sacred Location</h3>
+              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ Sacred Location</h3>
               <p className="text-gray-600">Performed at the holy Trimbakeshwar Temple, one of the 12 Jyotirlingas</p>
             </Card>
           </div>
@@ -809,8 +862,14 @@ export default function KaalSarpDoshWebsite() {
       
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
+      <section id="contact" className="py-20 bg-white relative">
+        {/* Om SVG background for Contact section */}
+        <div className="absolute inset-0 pointer-events-none z-0 opacity-10 select-none">
+          <svg width="100%" height="100%" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <text x="50%" y="60%" textAnchor="middle" fontSize="140" fill="#f59e42" opacity="0.10" fontFamily="serif">ॐ</text>
+          </svg>
+        </div>
+        <div className="relative max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Contact Us</h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
