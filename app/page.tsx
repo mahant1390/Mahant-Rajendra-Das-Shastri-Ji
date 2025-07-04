@@ -23,7 +23,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { FaWhatsapp } from "react-icons/fa"
 import { GiLotus } from "react-icons/gi"
-
+import { PhoneCallIcon } from "lucide-react"
 export default function KaalSarpDoshWebsite() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState("home")
@@ -108,48 +108,22 @@ export default function KaalSarpDoshWebsite() {
       </div>
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/919709701630?text=Hi"
+        href="tel:+919243011008"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16 animate-bounce"
-        title="Chat on WhatsApp"
+        title="Call"
         style={{ boxShadow: '0 4px 24px 0 rgba(34,197,94,0.3)' }}
       >
-        <FaWhatsapp size={36} />
+        <PhoneCallIcon size={36} />
       </a>
-      {/* Top Contact Bar */}
-      <div className="bg-gray-100 py-2 px-4 text-sm">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-2">
-          <div className="flex flex-col md:flex-row items-center gap-4 text-gray-600">
-            <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4" />
-              <span>Kalyan Bhawan, Pavan Ganesh Nagar, Trimbakeshwar, Shirsagaon, Maharashtra 422212</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Mail className="w-4 h-4" />
-              <span>kalsarpdoshivaran@gmail.com</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Phone className="w-4 h-4" />
-              <a href="tel:+911234567890" className="hover:underline">
-                +91 1234567890
-              </a>
-            </div>
-          </div>
-          <div className="flex items-center gap-3">
-            <Facebook className="w-4 h-4 text-blue-600 cursor-pointer hover:text-blue-800" />
-            <Twitter className="w-4 h-4 text-blue-400 cursor-pointer hover:text-blue-600" />
-            <Instagram className="w-4 h-4 text-pink-600 cursor-pointer hover:text-pink-800" />
-            <Youtube className="w-4 h-4 text-red-600 cursor-pointer hover:text-red-800" />
-          </div>
-        </div>
-      </div>
+     
 
       {/* Header */}
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold text-orange-600">Kaal Sarp Dosh Puja</div>
+            <div className="text-2xl font-bold text-orange-600">Kaal Sarp Dosh Puja Ujjain</div>
 
             {/* Desktop Navigation */}
             <nav className="hidden md:flex items-center space-x-8">
@@ -169,7 +143,7 @@ export default function KaalSarpDoshWebsite() {
                 className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-2 rounded-full"
                 asChild
               >
-                <a href="tel:+911234567890">+91 1234567890</a>
+                <a href="tel:+919243011008">+91 9243011008</a>
               </Button>
             </nav>
 
@@ -198,7 +172,7 @@ export default function KaalSarpDoshWebsite() {
                     className="bg-orange-600 hover:bg-orange-700 text-white mt-4"
                     asChild
                   >
-                    <a href="tel:+911234567890">+91 1234567890</a>
+                    <a href="tel:+919243011008">+919243011008</a>
                   </Button>
                 </div>
               </SheetContent>
@@ -231,12 +205,11 @@ export default function KaalSarpDoshWebsite() {
         <div className="relative max-w-7xl mx-auto px-4 py-20 flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left animate-fade-in-up">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 mb-6 animate-slide-in-left">
-            Welcome to Mahant Rajendra Das Shastri Ji -  Your Trusted Vedic Ritual Specialist
+            महंत राजेंद्र दास शास्त्री जी में आपका स्वागत है - आपके विश्वसनीय वैदिक अनुष्ठान विशेषज्ञ
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed animate-slide-in-left delay-200">
-              Get rid of Kaal Sarp Dosh with authentic Vedic rituals performed by experienced pandits at the sacred
-              Trimbakeshwar Temple.
-              Mahant Rajendra Das Shastri Ji , we bring sacred Vedic rituals to your home, no matter where you are in the world. Led by Mahant Rajendra Das Shastri Ji , a seasoned Vedic scholar and karmakandi with over 12 years of experience, our mission is to help devotees overcome life’s obstacles through powerful, personalized rituals rooted in ancient Hindu scriptures.
+              उज्जैन  मंदिर में अनुभवी पंडितों द्वारा किए गए प्रामाणिक वैदिक अनुष्ठानों से काल सर्प दोष से छुटकारा पाएं।
+              महंत राजेंद्र दास शास्त्री जी, हम दुनिया में कहीं भी हों, आपके घर तक पवित्र वैदिक अनुष्ठान लाते हैं। महंत राजेंद्र दास शास्त्री जी के नेतृत्व में, जो 12 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वैदिक विद्वान और कर्मकांडी हैं, हमारा मिशन प्राचीन हिंदू धर्मग्रंथों में निहित शक्तिशाली, व्यक्तिगत अनुष्ठानों के माध्यम से भक्तों को जीवन की बाधाओं को दूर करने में मदद करना है।
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-in-left delay-400">
               <Button
@@ -256,44 +229,47 @@ export default function KaalSarpDoshWebsite() {
           </div>
 
           {/* Enquiry Form */}
-          <div className="w-full lg:w-96 animate-slide-in-right">
+          <form action="https://getform.io/f/bpjpexyb" method="POST" className="w-full lg:w-96 animate-slide-in-right">
             <Card className="bg-white/95 backdrop-blur-sm shadow-2xl transform hover:scale-105 transition-all duration-300">
               <CardHeader>
-                <CardTitle className="text-2xl text-center text-gray-800">Make an Enquiry</CardTitle>
+                <CardTitle className="text-2xl text-center text-gray-800">पूछताछ करें</CardTitle>
                 <div className="w-16 h-1 bg-orange-600 mx-auto animate-pulse"></div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="transform hover:scale-105 transition-transform duration-200">
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Name</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">नाम</label>
                   <Input
-                    placeholder="Enter your name"
+                    name="name"
+                    placeholder="अपना नाम दर्ज करें"
                     className="w-full focus:ring-2 focus:ring-orange-500 transition-all duration-300"
                   />
                 </div>
                 <div className="transform hover:scale-105 transition-transform duration-200">
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Phone number <span className="text-red-500">*</span>
+                    फ़ोन नंबर <span className="text-red-500">*</span>
                   </label>
                   <Input
-                    placeholder="Enter phone number"
+                    name="phone_number"
+                    placeholder="फ़ोन नंबर दर्ज करें"
                     className="w-full focus:ring-2 focus:ring-orange-500 transition-all duration-300"
                   />
                 </div>
                 <div className="transform hover:scale-105 transition-transform duration-200">
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Date of puja <span className="text-red-500">*</span>
+                    पूजा की तारीख <span className="text-red-500">*</span>
                   </label>
                   <Input
+                    name="puja_date"
                     type="date"
                     className="w-full focus:ring-2 focus:ring-orange-500 transition-all duration-300"
                   />
                 </div>
-                <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white py-3 text-lg transform hover:scale-105 transition-all duration-300 hover:shadow-lg animate-pulse">
-                  Book your Puja
+                <Button type="submit" className="w-full bg-orange-600 hover:bg-orange-700 text-white py-3 text-lg transform hover:scale-105 transition-all duration-300 hover:shadow-lg animate-pulse">
+                  अपनी पूजा बुक करें
                 </Button>
               </CardContent>
             </Card>
-          </div>
+          </form>
         </div>
       </section>
 
@@ -323,13 +299,13 @@ export default function KaalSarpDoshWebsite() {
               <div className="w-24 h-1 bg-orange-600 mb-6 animate-expand"></div>
               <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
                 <p className="transform hover:translate-x-2 transition-transform duration-300">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi eaque porro animi dolorem, architecto quae nobis distinctio quasi, rerum facere pariatur, dolor debitis voluptatibus! Alias veritatis corporis ipsam ex expedita.
+                काल सरप पूजा विशेषज्ञ होने के नाते गुरुजी को 14 वर्षो का अनुभव कालसरप पूजा आयोजित करने में प्राप्त है, क्योंकि गुरुजी ने आज तक बहुत सारे शांति पूजा की सीमा पार कर दी है, और सभी (यज्ञ) शांति या पूजा विधि के बाद तुरन्त उत्कृष्ट परिणाम प्राप्त करते हैंं।
                 </p>
                 <p className="transform hover:translate-x-2 transition-transform duration-300 delay-100">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sequi, animi, dolorem eum cum tempore non consequatur quibusdam ut necessitatibus assumenda ullam, itaque molestias. Deleniti culpa assumenda reprehenderit esse sit!
+                महंत राजेन्द्र दास शास्त्री जी का जन्म भूमि महाकाल की नगरी उज्जैन(अवंतिका)है।पंडित जी को बाल काल से ही पंडिताई एवं दोष निवारण पुजा मे रूचि थी।पंडित जी के पिताजी एवं दादाजी भी यही कर्म करते थे,ओर वो भी गृह रहस्य एवं दोष निवारण के वेदिक पद्धति का ज्ञान गुरूजी के पास सिद्धस्त है।जिसके फलस्वरूप आज गुरूजी तुरंत उत्कृष्ट परिणाम प्राप्त करते है ओर जो भी यजमान की बाधा ,कष्ट ,पीड़ा ,रोग ,दोष होते है ।गुरूजी कहते है कि जो यजमान पुजा कराने आये बिल्कूल,सच्चे मन से ,श्रद्धा से ,भाव से,पुजन करे तो ही उत्कृष्ट परिणाम प्राप्त होगा नाकी तर्क-वितर्क करने से।
                 </p>
                 <p className="transform hover:translate-x-2 transition-transform duration-300 delay-200">
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nulla, hic facere veniam reiciendis aliquam amet provident corrupti perspiciatis, pariatur accusantium! Iure maxime aperiam fugiat aliquam quis unde omnis similique!
+                कालसर्प शांति करने से 9 विभिन्न प्रकार के सांपों का आशीर्वाद प्राप्त होता है। कालसर्प शांति पूजा के साथ राहु और केतु पूजा सफलता के द्वार खोलती है। नाग की सोने की मूर्ति की पूजा करने से देवी लक्ष्मी की कृपा प्राप्त होती है।
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-6 mt-8">
@@ -362,12 +338,11 @@ export default function KaalSarpDoshWebsite() {
             }`}
           >
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              How does Mahant Rajendra Das Shastri Ji Online Puja Service Work?
+              महंत राजेंद्र दास शास्त्री जी की ऑनलाइन पूजा सेवा कैसे काम करती है?
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6 animate-expand"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Experience authentic Vedic rituals from the comfort of your home with our comprehensive online puja
-              service
+              हमारी व्यापक ऑनलाइन पूजा सेवा के साथ अपने घर से ही प्रामाणिक वैदिक अनुष्ठानों का अनुभव करें
             </p>
           </div>
 
@@ -375,27 +350,27 @@ export default function KaalSarpDoshWebsite() {
             {[
               {
                 step: 1,
-                title: "Book Your Puja",
+                title: "अपनी पूजा बुक करें",
                 description:
-                  "Contact us via phone, WhatsApp, or our website form to book your preferred puja date and time",
+                  "अपनी पसंदीदा पूजा की तारीख और समय बुक करने के लिए हमें फोन, व्हाट्सएप या हमारी वेबसाइट फॉर्म के माध्यम से संपर्क करें",
               },
               {
                 step: 2,
-                title: "Provide Details",
+                title: "विवरण प्रदान करें",
                 description:
-                  "Share your birth details, gotra, and specific requirements for personalized puja arrangements",
+                  "व्यक्तिगत पूजा व्यवस्था के लिए अपना जन्म विवरण, गोत्र और विशिष्ट आवश्यकताएं साझा करें",
               },
               {
                 step: 3,
-                title: "Live Streaming",
+                title: "लाइव स्ट्रीमिंग",
                 description:
-                  "Watch your puja live via video call as our experienced pandits perform the rituals at Trimbakeshwar",
+                  "हमारे अनुभवी पंडितों द्वारा उज्जैन  में अनुष्ठान करते हुए वीडियो कॉल के माध्यम से अपनी पूजा लाइव देखें",
               },
               {
                 step: 4,
-                title: "Receive Prasad",
+                title: "प्रसाद प्राप्त करें",
                 description:
-                  "Get blessed prasad, photos, and puja certificate delivered to your doorstep within 3-5 days",
+                  "3-5 दिनों के भीतर अपने घर पर आशीर्वाद प्राप्त प्रसाद, फोटो और पूजा प्रमाण पत्र प्राप्त करें",
               },
             ].map((item, index) => (
               <div
@@ -423,8 +398,72 @@ export default function KaalSarpDoshWebsite() {
               onClick={() => scrollToSection("contact")}
               className="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 text-lg rounded-full transform hover:scale-105 transition-all duration-300 hover:shadow-lg animate-bounce"
             >
-              Start Your Online Puja Journey
+              अपनी ऑनलाइन पूजा यात्रा शुरू करें
             </Button>
+          </div>
+        </div>
+      </section>
+            
+      
+      <section className="py-20 bg-white" data-animate id="why-choose-us-section">
+        <div className="max-w-7xl mx-auto px-4">
+          <div
+            className={`text-center mb-16 transition-all duration-1000 ${
+              visibleSections.has("why-choose-us-section") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+            }`}
+          >
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">महंत राजेंद्र दास शास्त्री जी को क्यों चुनें?
+            </h2>
+            <div className="w-24 h-1 bg-orange-600 mx-auto mb-6 animate-expand"></div>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              हमारी प्रामाणिक, व्यक्तिगत और करुणामय वैदिक अनुष्ठान सेवाओं के साथ अंतर का अनुभव करें।
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[{
+                icon: <Award className="w-12 h-12 text-orange-600" />,
+                title: "अनुभवी और प्रामाणिक",
+                description: "महंत राजेंद्र दास शास्त्री जी को वैदिक अनुष्ठानों में 12 वर्षों से अधिक का अनुभव है, जो प्रामाणिक और प्रभावी पूजा सुनिश्चित करते हैं।",
+              },
+              {
+                icon: <Users className="w-12 h-12 text-orange-600" />,
+                title: "व्यक्तिगत दृष्टिकोण",
+                description: "हम आपकी विशिष्ट आवश्यकताओं और ज्योतिषीय विवरणों के अनुरूप प्रत्येक पूजा को अनुकूलित करते हैं, जिससे अधिकतम लाभ सुनिश्चित होता है।",
+              },
+              {
+                icon: <Star className="w-12 h-12 text-orange-600" />,
+                title: "विश्वसनीय और भरोसेमंद",
+                description: "हजारों भक्तों ने हमारी सच्ची और समर्पित सेवाओं के माध्यम से सकारात्मक परिवर्तन का अनुभव किया है।",
+              },
+              {
+                icon: <Calendar className="w-12 h-12 text-orange-600" />,
+                title: "सुविधाजनक ऑनलाइन सेवा",
+                description: "हमारी लाइव स्ट्रीमिंग और ऑनलाइन सहायता के साथ दुनिया में कहीं से भी पवित्र अनुष्ठानों में भाग लें।",
+              },
+              {
+                icon: <GiLotus className="w-12 h-12 text-orange-600" />,
+                title: "आध्यात्मिक मार्गदर्शन",
+                description: "अनुष्ठानों से परे, हम आपको जीवन की चुनौतियों का सामना करने में मदद करने के लिए आध्यात्मिक मार्गदर्शन और सहायता प्रदान करते हैं।",
+              },
+              {
+                icon: <Phone className="w-12 h-12 text-orange-600" />,
+                title: "समर्पित समर्थन",
+                description: "हमारी टीम बुकिंग से लेकर पूजा के बाद के समर्थन तक हर कदम पर आपकी सहायता के लिए उपलब्ध है।",
+              },
+            ].map((item, index) => (
+              <div
+                key={index}
+                className={`bg-orange-50 p-6 rounded-lg shadow-md text-center transform transition-all duration-500 hover:scale-105 hover:shadow-xl ${
+                  visibleSections.has("why-choose-us-section") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+                }`}
+                style={{ transitionDelay: `${index * 100}ms` }}
+              >
+                <div className="flex justify-center mb-4">{item.icon}</div>
+                <h3 className="text-xl font-semibold text-gray-800 mb-2">{item.title}</h3>
+                <p className="text-gray-600">{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -434,11 +473,11 @@ export default function KaalSarpDoshWebsite() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              Welcome to Your Trusted Kalsarp Dosh Nivaran Pooja
+              आपके विश्वसनीय कालसर्प दोष निवारण पूजा में आपका स्वागत है
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis minima accusantium magnam fuga amet praesentium eos officiis. Consequuntur assumenda tempora ipsam fugiat blanditiis sint eos, eum laudantium ducimus? Vel, nesciunt!
+            कालसर्प पूजा विशेषज्ञ होने के नाते गुरुजी को 14 वर्षो का अनुभव पूजा आयोजित करने में प्राप्त है, पंडित महंत राजेन्द्र दास शास्त्री गुरूजी दुवारा कि गई सभी पुजाये अर्थात कालसर्प दोष पूजा,मंगल भात पूजा,पितृ दोष पूजा,महामृत्युंजय जाप,अर्क/कुंभ विवाह,नव ग्रह शांति,बगलामुखी माता पुजा एवं विशेष संतान प्राप्ति का उत्कृष्ट परिणाम तुरंत प्राप्त होता है।
             </p>
           </div>
 
@@ -454,10 +493,9 @@ export default function KaalSarpDoshWebsite() {
               <div className="relative z-10 w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                 <Award className="w-8 h-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">Authentic Rituals</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">प्रामाणिक अनुष्ठान</h3>
               <p className="text-gray-600 relative z-10">
-                Every puja is performed according to ancient Vedic traditions with proper mantras, offerings, and
-                procedures
+                प्रत्येक पूजा प्राचीन वैदिक परंपराओं के अनुसार उचित मंत्रों, चढ़ावों और प्रक्रियाओं के साथ की जाती है
               </p>
             </Card>
             <Card className="relative text-center p-8 rounded-3xl shadow-xl border-t-4 border-orange-600 overflow-hidden group hover:scale-105 transition-transform duration-300 bg-orange-50">
@@ -469,9 +507,9 @@ export default function KaalSarpDoshWebsite() {
               <div className="relative z-10 w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                 <Users className="w-8 h-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">Expert Guidance</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">विशेषज्ञ मार्गदर्शन</h3>
               <p className="text-gray-600 relative z-10">
-                Our experienced pandits provide personalized consultation and guidance throughout your spiritual journey
+                हमारे अनुभवी पंडित आपकी आध्यात्मिक यात्रा के दौरान व्यक्तिगत परामर्श और मार्गदर्शन प्रदान करते हैं
               </p>
             </Card>
             <Card className="relative text-center p-8 rounded-3xl shadow-xl border-t-4 border-orange-600 overflow-hidden group hover:scale-105 transition-transform duration-300 bg-orange-50">
@@ -483,9 +521,9 @@ export default function KaalSarpDoshWebsite() {
               <div className="relative z-10 w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                 <Star className="w-8 h-8 text-orange-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">Proven Results</h3>
+              <h3 className="text-xl font-semibold mb-4 text-gray-800 relative z-10">सिद्ध परिणाम</h3>
               <p className="text-gray-600 relative z-10">
-                Thousands of devotees have experienced positive changes in their lives after our puja services
+                हजारों भक्तों ने हमारी पूजा सेवाओं के बाद अपने जीवन में सकारात्मक बदलाव का अनुभव किया है
               </p>
             </Card>
           </div>
@@ -514,11 +552,10 @@ export default function KaalSarpDoshWebsite() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">What Our Devotees Say</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">हमारे भक्त क्या कहते हैं</h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Read testimonials from thousands of satisfied devotees who have experienced positive changes in their
-              lives
+              हजारों संतुष्ट भक्तों की प्रशंसापत्र पढ़ें जिन्होंने अपने जीवन में सकारात्मक बदलाव का अनुभव किया है
             </p>
           </div>
 
@@ -532,7 +569,7 @@ export default function KaalSarpDoshWebsite() {
                     <Star key={i} className="w-6 h-6 fill-orange-400 text-orange-400" />
                   ))}
                 </div>
-                <div className="text-gray-600">Based on 2,847 reviews</div>
+                <div className="text-gray-600">2,847 समीक्षाओं पर आधारित</div>
               </div>
               <div className="border-l border-gray-200 pl-8 ml-8">
                 <div className="space-y-2">
@@ -553,7 +590,7 @@ export default function KaalSarpDoshWebsite() {
                       </div>
                       <span className="text-sm text-gray-600 w-8">{rating.percentage}%</span>
                     </div>
-                  ))}
+                  ))} 
                 </div>
               </div>
             </div>
@@ -563,52 +600,52 @@ export default function KaalSarpDoshWebsite() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                name: "Rajesh Kumar",
-                location: "Mumbai, Maharashtra",
+                name: "राजेश कुमार",
+                location: "मुंबई, महाराष्ट्र",
                 rating: 5,
                 review:
-                  "Mahant Rajendra Das Shastri Ji performed my Kaal Sarp Dosh puja with complete dedication. Within 3 months, I got a promotion at work and my family problems were resolved. Highly recommended!",
-                date: "2 weeks ago",
+                  "महंत राजेंद्र दास शास्त्री जी ने मेरी कालसर्प दोष पूजा पूरी निष्ठा से की। 3 महीने के भीतर, मुझे काम पर पदोन्नति मिली और मेरी पारिवारिक समस्याएं हल हो गईं। अत्यधिक अनुशंसित!",
+                date: "2 सप्ताह पहले",
               },
               {
-                name: "Priya Sharma",
-                location: "Delhi, NCR",
+                name: "प्रिया शर्मा",
+                location: "दिल्ली, एनसीआर",
                 rating: 5,
                 review:
-                  "The online puja service was amazing! I could watch the entire ritual live from my home. The pandit ji explained everything clearly and I received prasad within 4 days. Very satisfied!",
-                date: "1 month ago",
+                  "ऑनलाइन पूजा सेवा अद्भुत थी! मैं अपने घर से पूरी विधि लाइव देख सकती थी। पंडित जी ने सब कुछ स्पष्ट रूप से समझाया और मुझे 4 दिनों के भीतर प्रसाद मिल गया। बहुत संतुष्ट!",
+                date: "1 महीने पहले",
               },
               {
-                name: "Amit Patel",
-                location: "Ahmedabad, Gujarat",
+                name: "अमित पटेल",
+                location: "अहमदाबाद, गुजरात",
                 rating: 5,
                 review:
-                  "After years of struggle with business losses, I decided to perform Kaal Sarp Dosh puja. The results were miraculous! My business started growing and all obstacles were removed.",
-                date: "3 weeks ago",
+                  "व्यवसाय में वर्षों के नुकसान के बाद, मैंने कालसर्प दोष पूजा करने का फैसला किया। परिणाम चमत्कारी थे! मेरा व्यवसाय बढ़ने लगा और सभी बाधाएं दूर हो गईं।",
+                date: "3 सप्ताह पहले",
               },
               {
-                name: "Sunita Devi",
-                location: "Pune, Maharashtra",
+                name: "सुनीता देवी",
+                location: "पुणे, महाराष्ट्र",
                 rating: 5,
                 review:
-                  "Guruji's knowledge of scriptures is incredible. He guided me through the entire process and performed the puja with such devotion. My son's marriage got fixed within 2 months!",
-                date: "1 week ago",
+                  "गुरुजी का शास्त्रों का ज्ञान अविश्वसनीय है। उन्होंने मुझे पूरी प्रक्रिया में मार्गदर्शन किया और इतनी भक्ति के साथ पूजा की। मेरे बेटे की शादी 2 महीने के भीतर तय हो गई!",
+                date: "1 सप्ताह पहले",
               },
               {
-                name: "Vikram Singh",
-                location: "Jaipur, Rajasthan",
+                name: "विक्रम सिंह",
+                location: "जयपुर, राजस्थान",
                 rating: 5,
                 review:
-                  "Professional service with authentic rituals. The live streaming quality was excellent and I felt like I was present at the temple. Thank you for making this possible!",
-                date: "2 months ago",
+                  "प्रामाणिक अनुष्ठानों के साथ पेशेवर सेवा। लाइव स्ट्रीमिंग की गुणवत्ता उत्कृष्ट थी और मुझे लगा जैसे मैं मंदिर में मौजूद था। इसे संभव बनाने के लिए धन्यवाद!",
+                date: "2 महीने पहले",
               },
               {
-                name: "Meera Joshi",
-                location: "Bangalore, Karnataka",
+                name: "मीरा जोशी",
+                location: "बेंगलुरु, कर्नाटक",
                 rating: 5,
                 review:
-                  "I was skeptical about online puja initially, but the experience was beyond my expectations. The positive changes in my life started immediately after the puja. Blessed to find this service!",
-                date: "3 weeks ago",
+                  "शुरुआत में मुझे ऑनलाइन पूजा पर संदेह था, लेकिन अनुभव मेरी उम्मीदों से बढ़कर था। पूजा के तुरंत बाद मेरे जीवन में सकारात्मक बदलाव आने लगे। इस सेवा को पाकर धन्य हूं!",
+                date: "3 सप्ताह पहले",
               },
             ].map((review, index) => (
               <Card key={index} className="p-6 hover:shadow-lg transition-shadow">
@@ -658,12 +695,11 @@ export default function KaalSarpDoshWebsite() {
           <div className="text-center mb-16 flex flex-col items-center">
             <span className="text-5xl text-orange-600 animate-pulse mb-2">ॐ</span>
             <h2 className="text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-2">
-              About Kaal Sarp Dosh
+              कालसर्प दोष के बारे में
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Kaal Sarp Dosh is formed when all planets come between Rahu and Ketu. This creates obstacles in life,
-              career, and relationships.
+              कालसर्प दोष तब बनता है जब सभी ग्रह राहु और केतु के बीच आ जाते हैं। यह जीवन, करियर और रिश्तों में बाधाएं पैदा करता है।
             </p>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -671,22 +707,22 @@ export default function KaalSarpDoshWebsite() {
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-4xl text-orange-600 animate-pulse">ॐ</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ Authentic Rituals</h3>
-              <p className="text-gray-600">Traditional Vedic rituals performed according to ancient scriptures</p>
+              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ प्रामाणिक अनुष्ठान</h3>
+              <p className="text-gray-600">प्राचीन शास्त्रों के अनुसार किए गए पारंपरिक वैदिक अनुष्ठान</p>
             </Card>
             <Card className="text-center p-6 hover:shadow-lg transition-shadow relative z-10">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-4xl text-orange-600 animate-pulse">ॐ</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ Experienced Pandits</h3>
-              <p className="text-gray-600">Qualified and experienced pandits with deep knowledge of scriptures</p>
+              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ अनुभवी पंडित</h3>
+              <p className="text-gray-600">शास्त्रों के गहन ज्ञान वाले योग्य और अनुभवी पंडित</p>
             </Card>
             <Card className="text-center p-6 hover:shadow-lg transition-shadow relative z-10">
               <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <span className="text-4xl text-orange-600 animate-pulse">ॐ</span>
               </div>
-              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ Sacred Location</h3>
-              <p className="text-gray-600">Performed at the holy Trimbakeshwar Temple, one of the 12 Jyotirlingas</p>
+              <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">ॐ पवित्र स्थान</h3>
+              <p className="text-gray-600">पवित्र उज्जैन  मंदिर में किया गया, जो 12 ज्योतिर्लिंगों में से एक है</p>
             </Card>
           </div>
         </div>
@@ -706,49 +742,64 @@ export default function KaalSarpDoshWebsite() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Anant Kaal Sarp Dosh Puja",
-                description: "When Rahu is in 1st house and Ketu in 7th house",
+                title: "Kaal Sarp Dosh Puja",
+                description: "Comprehensive puja to alleviate the effects of Kaal Sarp Dosh.",
                 price: "₹5,100",
+                image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCbnzes9aOfkVtAl_x_Noy7Rl8-Fy3Bg3e4VfOciJFREHFO98flDRpw1vXG9EjGiBfegpSpZYyy8I2nP14pIHwrocBReGq3ymetI32UA9qeCLQ51wLVeeNNnmDiTqpSwy-PnjZsdVvIf5dCieaDaTSeZ5-88l7YtWraFa3JmOf8OWRs4D0GER3mbTmy6U/s500/Kaalsarp-Dosh.jpeg",
               },
               {
-                title: "Kulik Kaal Sarp Dosh Puja",
-                description: "When Rahu is in 2nd house and Ketu in 8th house",
-                price: "₹5,100",
+                title: "Mangal Bhaat Pujan",
+                description: "Special puja for Mangal Dosh (Mars affliction) to bring harmony and prosperity.",
+                price: "₹7,500",
+                image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nzesWcad6VM43HEnqo5cbAT-hYF_oS8EoL617N9wY6oGTcM06jiVoZW1Xo5Bh-iz1mhz3rxk0Hl5BzrYSIGrfokAz9jk9rupZJJTUlAK1dYIWvCYT6B8RFm4-IR6ZkkMCguyoh0l9xF503P-yuUuv1V86ozGUt7cwy40EYtAG-6W7SS3ou4WwPETiNY/s275/images.jpeg",
               },
               {
-                title: "Vasuki Kaal Sarp Dosh Puja",
-                description: "When Rahu is in 3rd house and Ketu in 9th house",
-                price: "₹5,100",
+                title: "कुंभ विवाह",
+                description: "मंगल दोष या विवाह में अन्य ज्योतिषीय बाधाओं वाले व्यक्तियों के लिए किया जाने वाला अनुष्ठान।",
+                price: "₹11,000",
+                image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSSoUXjqOR05rchCIZV7RTJgh_moOkSQ9hFifP_S-SMxLA0lpw6t2_hblTSNIVGZ6sEGhjh5XJOmphn8ggzPHzgeDSDdFO4uSB-EyWVa9FXMzgINkygbOUYyhUhgOtgvMT_agWbvevd3vYcYkYQZS_1CI3Srv_e_LJK1jutcN-S5qFkSvLxDZFY5ZqLyU/s350/KUMBH%20VIVAH.webp",
               },
               {
-                title: "Shankpal Kaal Sarp Dosh Puja",
-                description: "When Rahu is in 4th house and Ketu in 10th house",
-                price: "₹5,100",
+                title: "अर्क विवाह",
+                description: "किसी की कुंडली में सूर्य के बुरे प्रभावों को कम करने के लिए किया जाता है, खासकर विवाह के लिए।",
+                price: "₹9,000",
+                image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqxwyYeDBRuL2AuO4QomnMNFrqUKdHKYRPSmApDP3uCbpjkziO4eLJdq9WTKNQuRpv5DD3IODZcg3M4LI77kDdexDqhm6u3nvufESndXBWOtoPktyAsDHZDUpj8Go5vr0m1VoOrAJPAsDHYvHfpylqCa6_n6iU9-H9_BKQWDCeoVgFsv0E_V7ocIPDaQ0/s225/images%20(1).jpeg",
               },
               {
-                title: "Padam Kaal Sarp Dosh Puja",
-                description: "When Rahu is in 5th house and Ketu in 11th house",
-                price: "₹5,100",
+                title: "ग्रह दोष निवारण पूजा",
+                description: "हानिकारक ग्रहों के प्रभावों को शांत करने और शांति और कल्याण लाने के लिए सामान्य पूजा।",
+                price: "₹6,000",
+                image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGicKztO4RReAAnhJ2N3L_d1Ad8MhF3TwUBrOvejE8MzMx6A_iumCZHKQucGcQ07BnMoqFE_HTNSvvHeoaCFs0YAL2oFr3M0ka5wPMdb9mHl0hz9RQ4G0AczKzDBcNJYx8uNnJftBQTsWbnTg6y5EG8qHvkXtDjkp4bFTZwAwRUikD7Ev9FX4OMxLsD5k/s234/images%20(2).jpeg",
               },
               {
-                title: "Mahapadma Kaal Sarp Dosh Puja",
-                description: "When Rahu is in 6th house and Ketu in 12th house",
-                price: "₹5,100",
+                title: "मंगल शांति पूजा",
+                description: "भगवान मंगल (मंगल) को प्रसन्न करने और उसके नकारात्मक प्रभाव को कम करने के लिए विशेष पूजा।",
+                price: "₹8,000",
+                image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikH0JX067PG02Q4EHrIwU0tEqOyBTxmki8-vB3o3oNsFHtqvEk1GHe8OXnluT3o4HNfxnFkQofr8SVwB0OavvpCItcUNGk1ETdxJI5stvCusGJSCGeU1B8xMQ4OhVHX5a5CxcTgaYpZJPGfzof4JA6rx7Ka2aHCaImjSBk77GQITwdLFP8v-9J2NZuDh8/s263/images%20(3).jpeg",
               },
             ].map((puja, index) => (
-              <Card key={index} className="hover:shadow-lg transition-shadow">
-                <CardHeader>
-                  <CardTitle className="text-lg text-orange-600">{puja.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600 mb-4">{puja.description}</p>
-                  <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-orange-600">{puja.price}</span>
-                    <Button onClick={() => scrollToSection("contact")} className="bg-orange-600 hover:bg-orange-700">
-                      Book Now
-                    </Button>
-                  </div>
-                </CardContent>
+              <Card
+                key={index}
+                className="text-center p-6 hover:shadow-lg transition-shadow relative z-10 overflow-hidden rounded-lg group"
+              >
+                <div className="absolute inset-0 w-full h-full">
+                  <Image
+                    src={puja.image}
+                    alt={puja.title}
+                    layout="fill"
+                    objectFit="cover"
+                    className="transition-transform duration-300 group-hover:scale-110"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-black bg-opacity-50 group-hover:bg-opacity-70 transition-opacity duration-300"></div>
+                <div className="relative z-10 text-white">
+                  <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">{puja.title}</h3>
+                  <p className="text-gray-200">{puja.description}</p>
+                  <p className="text-lg font-bold text-orange-300 mt-2">{puja.price}</p>
+                  <Button onClick={() => scrollToSection("contact")} className="bg-orange-600 hover:bg-orange-700 mt-4">
+                    अभी बुक करें
+                  </Button>
+                </div>
               </Card>
             ))}
           </div>
@@ -759,10 +810,10 @@ export default function KaalSarpDoshWebsite() {
       <section id="gallery" className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Gallery</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">गैलरी</h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Glimpses of our puja ceremonies and the sacred Trimbakeshwar Temple
+              हमारी पूजा समारोहों और पवित्र उज्जैन  मंदिर की झलकियाँ
             </p>
           </div>
 
@@ -871,25 +922,25 @@ export default function KaalSarpDoshWebsite() {
         </div>
         <div className="relative max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Contact Us</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">हमसे संपर्क करें</h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Get in touch with us to book your puja or for any queries about Kaal Sarp Dosh remedies
+              अपनी पूजा बुक करने या कालसर्प दोष निवारण के बारे में किसी भी प्रश्न के लिए हमसे संपर्क करें
             </p>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-2xl font-semibold mb-6 text-gray-800">Get in Touch</h3>
+              <h3 className="text-2xl font-semibold mb-6 text-gray-800">संपर्क करें</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-orange-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">Address</h4>
+                    <h4 className="font-semibold text-gray-800 mb-1">पता</h4>
                     <p className="text-gray-600">
-                      Kalyan Bhawan, Pavan Ganesh Nagar, Trimbakeshwar, Shirsagaon, Maharashtra 422212
+                      Kalyan Bhawan, Pavan Ganesh Nagar, ujjain, Shirsagaon, Madhya Pardesh 422212
                     </p>
                   </div>
                 </div>
@@ -899,8 +950,8 @@ export default function KaalSarpDoshWebsite() {
                     <Phone className="w-6 h-6 text-orange-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">Phone</h4>
-                    <p className="text-gray-600">+91 1234567890</p>
+                    <h4 className="font-semibold text-gray-800 mb-1">फ़ोन</h4>
+                    <p className="text-gray-600">+91 9243011008</p>
                   </div>
                 </div>
 
@@ -909,7 +960,7 @@ export default function KaalSarpDoshWebsite() {
                     <Mail className="w-6 h-6 text-orange-600" />
                   </div>
                   <div>
-                    <h4 className="font-semibold text-gray-800 mb-1">Email</h4>
+                    <h4 className="font-semibold text-gray-800 mb-1">ईमेल</h4>
                     <p className="text-gray-600">kalsarpdoshivaran@gmail.com</p>
                   </div>
                 </div>
@@ -939,31 +990,33 @@ export default function KaalSarpDoshWebsite() {
                 <CardHeader>
                   <CardTitle className="text-2xl text-gray-800">Send us a Message</CardTitle>
                 </CardHeader>
+                <form action="https://getform.io/f/bpjpexyb" method="POST">
                 <CardContent className="space-y-4">
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">Name *</label>
-                      <Input placeholder="Your name" />
+                      <Input name="name" placeholder="Your name" />
                     </div>
                     <div>
                       <label className="block text-sm font-medium text-gray-700 mb-2">Phone *</label>
-                      <Input placeholder="Your phone number" />
+                      <Input name="phone" placeholder="Your phone number" />
                     </div>
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Email</label>
-                    <Input type="email" placeholder="Your email address" />
+                    <Input name="email" type="email" placeholder="Your email address" />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Preferred Date</label>
-                    <Input type="date" />
+                    <Input name="preferred_date" type="date" />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-gray-700 mb-2">Message</label>
-                    <Textarea placeholder="Tell us about your requirements..." rows={4} />
+                    <Textarea name="message" placeholder="Tell us about your requirements..." rows={4} />
                   </div>
-                  <Button className="w-full bg-orange-600 hover:bg-orange-700 text-white py-3">Send Message</Button>
+                  <Button type="submit" className="w-full bg-orange-600 hover:bg-orange-700 text-white py-3">Send Message</Button>
                 </CardContent>
+                </form>
               </Card>
             </div>
           </div>
@@ -975,10 +1028,10 @@ export default function KaalSarpDoshWebsite() {
         <div className="max-w-7xl mx-auto px-4">
           {/* Map Section */}
           <div className="mb-12">
-            <h3 className="text-2xl font-bold mb-6 text-center text-orange-400">Find Us at Trimbakeshwar</h3>
+            <h3 className="text-2xl font-bold mb-6 text-center text-orange-400">Find Us at ujjain</h3>
             <div className="rounded-2xl overflow-hidden shadow-2xl transform hover:scale-105 transition-all duration-500">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.8567890123456!2d73.5287!3d19.9317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd9c7c8b123456%3A0x1234567890abcdef!2sTrimbakeshwar%20Temple!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3747.8567890123456!2d73.5287!3d19.9317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdd9c7c8b123456%3A0x1234567890abcdef!2sujjain%20Temple!5e0!3m2!1sen!2sin!4v1234567890123!5m2!1sen!2sin"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
@@ -994,7 +1047,7 @@ export default function KaalSarpDoshWebsite() {
             <div className="transform hover:scale-105 transition-all duration-300">
               <h3 className="text-xl font-bold mb-4 text-orange-400">Kaal Sarp Dosh Puja</h3>
               <p className="text-gray-300 mb-4">
-                Authentic Vedic rituals for Kaal Sarp Dosh removal at the sacred Trimbakeshwar Temple.
+                Authentic Vedic rituals for Kaal Sarp Dosh removal at the sacred ujjain Temple.
               </p>
               <div className="flex gap-3">
                 <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" />
@@ -1045,11 +1098,11 @@ export default function KaalSarpDoshWebsite() {
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-start gap-2 hover:text-white transition-colors duration-300">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0 animate-pulse" />
-                  <span className="text-sm">Kalyan Bhawan, Pavan Ganesh Nagar, Trimbakeshwar, Maharashtra</span>
+                  <span className="text-sm">Ujjain, Madhya Pardesh</span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer">
                   <Phone className="w-4 h-4 animate-pulse" />
-                  <span>+91 1234567890</span>
+                  <span>+919243011008</span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer">
                   <Mail className="w-4 h-4 animate-pulse" />
@@ -1060,7 +1113,7 @@ export default function KaalSarpDoshWebsite() {
           </div>
 
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p className="animate-fade-in">&copy; 2024 Kaal Sarp Dosh Puja Trimbakeshwar. All rights reserved.</p>
+            <p className="animate-fade-in">&copy; 2024 Kaal Sarp Dosh Puja ujjain. All rights reserved.</p>
           </div>
         </div>
       </footer>
