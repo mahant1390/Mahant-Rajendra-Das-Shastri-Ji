@@ -14,6 +14,8 @@ import {
   Calendar,
   Users,
   Award,
+  MessageCircleIcon,
+  PhoneCallIcon,
 } from "lucide-react"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
@@ -23,7 +25,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { FaWhatsapp } from "react-icons/fa"
 import { GiLotus } from "react-icons/gi"
-import { PhoneCallIcon } from "lucide-react"
+
 export default function KaalSarpDoshWebsite() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeSection, setActiveSection] = useState("home")
@@ -106,26 +108,36 @@ export default function KaalSarpDoshWebsite() {
           <text x="80%" y="60%" textAnchor="middle" fontSize="100" fill="#fb7185" opacity="0.10" fontFamily="serif">ॐ</text>
         </svg>
       </div>
-      {/* Floating WhatsApp Button */}
+      {/* Floating Phone call Button */}
       <a
         href="tel:+919243011008"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16 animate-bounce"
+        className="fixed bottom-6 right-24 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16 "
         title="Call"
         style={{ boxShadow: '0 4px 24px 0 rgba(34,197,94,0.3)' }}
       >
         <PhoneCallIcon size={36} />
       </a>
+      <a
+        href="https://wa.me/+919243011008"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 left-6 z-50 bg-[#25D366] hover:bg-[#128C7E] text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16"
+        title="WhatsApp"
+        style={{ boxShadow: '0 4px 24px 0 rgba(37,211,102,0.3)' }}
+      >
+        <FaWhatsapp size={36} />
+      </a>
      
 
-      {/* Header */}
+     
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold text-orange-600">Kaal Sarp Dosh Puja Ujjain</div>
 
-            {/* Desktop Navigation */}
+            
             <nav className="hidden md:flex items-center space-x-8">
               {navigationItems.map((item) => (
                 <button
@@ -209,8 +221,12 @@ export default function KaalSarpDoshWebsite() {
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed animate-slide-in-left delay-200">
               उज्जैन  मंदिर में अनुभवी पंडितों द्वारा किए गए प्रामाणिक वैदिक अनुष्ठानों से काल सर्प दोष से छुटकारा पाएं।
-              महंत राजेंद्र दास शास्त्री जी, हम दुनिया में कहीं भी हों, आपके घर तक पवित्र वैदिक अनुष्ठान लाते हैं। महंत राजेंद्र दास शास्त्री जी के नेतृत्व में, जो 12 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वैदिक विद्वान और कर्मकांडी हैं, हमारा मिशन प्राचीन हिंदू धर्मग्रंथों में निहित शक्तिशाली, व्यक्तिगत अनुष्ठानों के माध्यम से भक्तों को जीवन की बाधाओं को दूर करने में मदद करना है।
+              महंत राजेंद्र दास शास्त्री जी, हम दुनिया में कहीं भी हों, आपके घर तक पवित्र वैदिक अनुष्ठान लाते हैं। महंत राजेंद्र दास शास्त्री जी के नेतृत्व में, जो 20 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वैदिक विद्वान और कर्मकांडी हैं, हमारा मिशन प्राचीन हिंदू धर्मग्रंथों में निहित शक्तिशाली, व्यक्तिगत अनुष्ठानों के माध्यम से भक्तों को जीवन की बाधाओं को दूर करने में मदद करना है।
             </p>
+            <p className="mt-4 text-xl font-semibold text-gray-800 animate-slide-in-left delay-300">
+             <Button className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-in-left delay-400"> Call us: +91 9243011008</Button>
+            </p>
+            <br/>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-in-left delay-400">
               <Button
                 onClick={() => scrollToSection("contact")}
@@ -299,7 +315,7 @@ export default function KaalSarpDoshWebsite() {
               <div className="w-24 h-1 bg-orange-600 mb-6 animate-expand"></div>
               <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
                 <p className="transform hover:translate-x-2 transition-transform duration-300">
-                काल सरप पूजा विशेषज्ञ होने के नाते गुरुजी को 14 वर्षो का अनुभव कालसरप पूजा आयोजित करने में प्राप्त है, क्योंकि गुरुजी ने आज तक बहुत सारे शांति पूजा की सीमा पार कर दी है, और सभी (यज्ञ) शांति या पूजा विधि के बाद तुरन्त उत्कृष्ट परिणाम प्राप्त करते हैंं।
+                काल सरप पूजा विशेषज्ञ होने के नाते गुरुजी को 20 वर्षो का अनुभव कालसरप पूजा आयोजित करने में प्राप्त है, क्योंकि गुरुजी ने आज तक बहुत सारे शांति पूजा की सीमा पार कर दी है, और सभी (यज्ञ) शांति या पूजा विधि के बाद तुरन्त उत्कृष्ट परिणाम प्राप्त करते हैंं।
                 </p>
                 <p className="transform hover:translate-x-2 transition-transform duration-300 delay-100">
                 महंत राजेन्द्र दास शास्त्री जी का जन्म भूमि महाकाल की नगरी उज्जैन(अवंतिका)है।पंडित जी को बाल काल से ही पंडिताई एवं दोष निवारण पुजा मे रूचि थी।पंडित जी के पिताजी एवं दादाजी भी यही कर्म करते थे,ओर वो भी गृह रहस्य एवं दोष निवारण के वेदिक पद्धति का ज्ञान गुरूजी के पास सिद्धस्त है।जिसके फलस्वरूप आज गुरूजी तुरंत उत्कृष्ट परिणाम प्राप्त करते है ओर जो भी यजमान की बाधा ,कष्ट ,पीड़ा ,रोग ,दोष होते है ।गुरूजी कहते है कि जो यजमान पुजा कराने आये बिल्कूल,सच्चे मन से ,श्रद्धा से ,भाव से,पुजन करे तो ही उत्कृष्ट परिणाम प्राप्त होगा नाकी तर्क-वितर्क करने से।
@@ -310,10 +326,10 @@ export default function KaalSarpDoshWebsite() {
               </div>
               <div className="grid grid-cols-2 gap-6 mt-8">
                 {[
-                  { number: "15+", label: "Years Experience" },
-                  { number: "5000+", label: "Pujas Performed" },
-                  { number: "98%", label: "Success Rate" },
-                  { number: "4.9★", label: "Customer Rating" },
+                  { number: "20", label: "Exp" },
+                  { number: "11000", label: "Pooja attended" },
+                  { number: "10+", label: "Number of types of pooja" },
+                  { number: "4.9★", label: "Rating" },
                 ].map((stat, index) => (
                   <div
                     key={index}
@@ -424,7 +440,7 @@ export default function KaalSarpDoshWebsite() {
             {[{
                 icon: <Award className="w-12 h-12 text-orange-600" />,
                 title: "अनुभवी और प्रामाणिक",
-                description: "महंत राजेंद्र दास शास्त्री जी को वैदिक अनुष्ठानों में 12 वर्षों से अधिक का अनुभव है, जो प्रामाणिक और प्रभावी पूजा सुनिश्चित करते हैं।",
+                description: "महंत राजेंद्र दास शास्त्री जी को वैदिक अनुष्ठानों में 20 वर्षों से अधिक का अनुभव है, जो प्रामाणिक और प्रभावी पूजा सुनिश्चित करते हैं।",
               },
               {
                 icon: <Users className="w-12 h-12 text-orange-600" />,
@@ -477,7 +493,7 @@ export default function KaalSarpDoshWebsite() {
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            कालसर्प पूजा विशेषज्ञ होने के नाते गुरुजी को 14 वर्षो का अनुभव पूजा आयोजित करने में प्राप्त है, पंडित महंत राजेन्द्र दास शास्त्री गुरूजी दुवारा कि गई सभी पुजाये अर्थात कालसर्प दोष पूजा,मंगल भात पूजा,पितृ दोष पूजा,महामृत्युंजय जाप,अर्क/कुंभ विवाह,नव ग्रह शांति,बगलामुखी माता पुजा एवं विशेष संतान प्राप्ति का उत्कृष्ट परिणाम तुरंत प्राप्त होता है।
+            कालसर्प पूजा विशेषज्ञ होने के नाते गुरुजी को 20 वर्षो का अनुभव पूजा आयोजित करने में प्राप्त है, पंडित महंत राजेन्द्र दास शास्त्री गुरूजी दुवारा कि गई सभी पुजाये अर्थात कालसर्प दोष पूजा,मंगल भात पूजा,पितृ दोष पूजा,महामृत्युंजय जाप,अर्क/कुंभ विवाह,नव ग्रह शांति,बगलामुखी माता पुजा एवं विशेष संतान प्राप्ति का उत्कृष्ट परिणाम तुरंत प्राप्त होता है।
             </p>
           </div>
 
@@ -540,7 +556,7 @@ export default function KaalSarpDoshWebsite() {
                 <div>Satisfaction Guarantee</div>
               </div>
               <div>
-                <div className="text-3xl font-bold mb-2">15+</div>
+                <div className="text-3xl font-bold mb-2">20+</div>
                 <div>Years of Experience</div>
               </div>
             </div>
@@ -561,36 +577,13 @@ export default function KaalSarpDoshWebsite() {
 
           {/* Overall Rating */}
           <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-4 bg-white rounded-2xl p-8 shadow-lg">
+            <div className="inline-flex items-center justify-center bg-white rounded-2xl p-8 shadow-lg">
               <div className="text-center">
                 <div className="text-5xl font-bold text-orange-600 mb-2">4.9</div>
-                <div className="flex justify-center gap-1 mb-2">
+                <div className="flex justify-center gap-1">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-6 h-6 fill-orange-400 text-orange-400" />
                   ))}
-                </div>
-                <div className="text-gray-600">2,847 समीक्षाओं पर आधारित</div>
-              </div>
-              <div className="border-l border-gray-200 pl-8 ml-8">
-                <div className="space-y-2">
-                  {[
-                    { stars: 5, percentage: 89 },
-                    { stars: 4, percentage: 8 },
-                    { stars: 3, percentage: 2 },
-                    { stars: 2, percentage: 1 },
-                    { stars: 1, percentage: 0 },
-                  ].map((rating) => (
-                    <div key={rating.stars} className="flex items-center gap-3">
-                      <span className="text-sm w-8">{rating.stars}★</span>
-                      <div className="w-32 h-2 bg-gray-200 rounded-full overflow-hidden">
-                        <div
-                          className="h-full bg-orange-400 rounded-full"
-                          style={{ width: `${rating.percentage}%` }}
-                        ></div>
-                      </div>
-                      <span className="text-sm text-gray-600 w-8">{rating.percentage}%</span>
-                    </div>
-                  ))} 
                 </div>
               </div>
             </div>
@@ -735,7 +728,7 @@ export default function KaalSarpDoshWebsite() {
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Puja Services</h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We offer various types of Kaal Sarp Dosh Puja based on your specific requirements and planetary positions.
+              हम आपकी विशिष्ट आवश्यकताओं और ग्रहों की स्थिति के आधार पर विभिन्न प्रकार की काल सर्प दोष पूजा प्रदान करते हैं।
             </p>
           </div>
 
@@ -744,37 +737,37 @@ export default function KaalSarpDoshWebsite() {
               {
                 title: "Kaal Sarp Dosh Puja",
                 description: "Comprehensive puja to alleviate the effects of Kaal Sarp Dosh.",
-                price: "₹5,100",
+
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCbnzes9aOfkVtAl_x_Noy7Rl8-Fy3Bg3e4VfOciJFREHFO98flDRpw1vXG9EjGiBfegpSpZYyy8I2nP14pIHwrocBReGq3ymetI32UA9qeCLQ51wLVeeNNnmDiTqpSwy-PnjZsdVvIf5dCieaDaTSeZ5-88l7YtWraFa3JmOf8OWRs4D0GER3mbTmy6U/s500/Kaalsarp-Dosh.jpeg",
               },
               {
                 title: "Mangal Bhaat Pujan",
                 description: "Special puja for Mangal Dosh (Mars affliction) to bring harmony and prosperity.",
-                price: "₹7,500",
+
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nzesWcad6VM43HEnqo5cbAT-hYF_oS8EoL617N9wY6oGTcM06jiVoZW1Xo5Bh-iz1mhz3rxk0Hl5BzrYSIGrfokAz9jk9rupZJJTUlAK1dYIWvCYT6B8RFm4-IR6ZkkMCguyoh0l9xF503P-yuUuv1V86ozGUt7cwy40EYtAG-6W7SS3ou4WwPETiNY/s275/images.jpeg",
               },
               {
                 title: "कुंभ विवाह",
                 description: "मंगल दोष या विवाह में अन्य ज्योतिषीय बाधाओं वाले व्यक्तियों के लिए किया जाने वाला अनुष्ठान।",
-                price: "₹11,000",
+
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgSSoUXjqOR05rchCIZV7RTJgh_moOkSQ9hFifP_S-SMxLA0lpw6t2_hblTSNIVGZ6sEGhjh5XJOmphn8ggzPHzgeDSDdFO4uSB-EyWVa9FXMzgINkygbOUYyhUhgOtgvMT_agWbvevd3vYcYkYQZS_1CI3Srv_e_LJK1jutcN-S5qFkSvLxDZFY5ZqLyU/s350/KUMBH%20VIVAH.webp",
               },
               {
                 title: "अर्क विवाह",
                 description: "किसी की कुंडली में सूर्य के बुरे प्रभावों को कम करने के लिए किया जाता है, खासकर विवाह के लिए।",
-                price: "₹9,000",
+
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqxwyYeDBRuL2AuO4QomnMNFrqUKdHKYRPSmApDP3uCbpjkziO4eLJdq9WTKNQuRpv5DD3IODZcg3M4LI77kDdexDqhm6u3nvufESndXBWOtoPktyAsDHZDUpj8Go5vr0m1VoOrAJPAsDHYvHfpylqCa6_n6iU9-H9_BKQWDCeoVgFsv0E_V7ocIPDaQ0/s225/images%20(1).jpeg",
               },
               {
                 title: "ग्रह दोष निवारण पूजा",
                 description: "हानिकारक ग्रहों के प्रभावों को शांत करने और शांति और कल्याण लाने के लिए सामान्य पूजा।",
-                price: "₹6,000",
+
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGicKztO4RReAAnhJ2N3L_d1Ad8MhF3TwUBrOvejE8MzMx6A_iumCZHKQucGcQ07BnMoqFE_HTNSvvHeoaCFs0YAL2oFr3M0ka5wPMdb9mHl0hz9RQ4G0AczKzDBcNJYx8uNnJftBQTsWbnTg6y5EG8qHvkXtDjkp4bFTZwAwRUikD7Ev9FX4OMxLsD5k/s234/images%20(2).jpeg",
               },
               {
                 title: "मंगल शांति पूजा",
                 description: "भगवान मंगल (मंगल) को प्रसन्न करने और उसके नकारात्मक प्रभाव को कम करने के लिए विशेष पूजा।",
-                price: "₹8,000",
+
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikH0JX067PG02Q4EHrIwU0tEqOyBTxmki8-vB3o3oNsFHtqvEk1GHe8OXnluT3o4HNfxnFkQofr8SVwB0OavvpCItcUNGk1ETdxJI5stvCusGJSCGeU1B8xMQ4OhVHX5a5CxcTgaYpZJPGfzof4JA6rx7Ka2aHCaImjSBk77GQITwdLFP8v-9J2NZuDh8/s263/images%20(3).jpeg",
               },
             ].map((puja, index) => (
@@ -795,7 +788,7 @@ export default function KaalSarpDoshWebsite() {
                 <div className="relative z-10 text-white">
                   <h3 className="text-xl font-semibold mb-3 flex items-center justify-center gap-2">{puja.title}</h3>
                   <p className="text-gray-200">{puja.description}</p>
-                  <p className="text-lg font-bold text-orange-300 mt-2">{puja.price}</p>
+
                   <Button onClick={() => scrollToSection("contact")} className="bg-orange-600 hover:bg-orange-700 mt-4">
                     अभी बुक करें
                   </Button>
@@ -970,16 +963,14 @@ export default function KaalSarpDoshWebsite() {
                 <h4 className="font-semibold text-gray-800 mb-4">Follow Us</h4>
                 <div className="flex gap-4">
                   <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-700 transition-colors">
-                    <Facebook className="w-5 h-5 text-white" />
+                    <a href="https://www.instagram.com/mahant_2214?igsh=MXZrcnEycGkyOTQzeQ=="><Facebook className="w-5 h-5 text-white" /></a>
                   </div>
-                  <div className="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-500 transition-colors">
-                    <Twitter className="w-5 h-5 text-white" />
-                  </div>
+                
                   <div className="w-10 h-10 bg-pink-600 rounded-full flex items-center justify-center cursor-pointer hover:bg-pink-700 transition-colors">
-                    <Instagram className="w-5 h-5 text-white" />
+                    <a href="https://www.instagram.com/mahant_2214?igsh=MXZrcnEycGkyOTQzeQ=="><Instagram className="w-5 h-5 text-white" /></a>
                   </div>
                   <div className="w-10 h-10 bg-red-600 rounded-full flex items-center justify-center cursor-pointer hover:bg-red-700 transition-colors">
-                    <Youtube className="w-5 h-5 text-white" />
+                    <a href="https://youtube.com/channel/UCsVRKbTSmLIOK5lGUs__NXA?si=12XFwab6yidNoLiZ"><Youtube className="w-5 h-5 text-white" /></a>
                   </div>
                 </div>
               </div>
@@ -1050,10 +1041,9 @@ export default function KaalSarpDoshWebsite() {
                 Authentic Vedic rituals for Kaal Sarp Dosh removal at the sacred ujjain Temple.
               </p>
               <div className="flex gap-3">
-                <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" />
-                <Twitter className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" />
-                <Instagram className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" />
-                <Youtube className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" />
+                <a href="https://www.facebook.com/profile.php?id=100019534035147"><Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" /></a>
+                <a href="https://www.instagram.com/mahant_2214?igsh=MXZrcnEycGkyOTQzeQ=="> <Instagram className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" /></a>
+                <a href="https://youtube.com/channel/UCsVRKbTSmLIOK5lGUs__NXA?si=12XFwab6yidNoLiZ"><Youtube className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" /></a>
               </div>
             </div>
 
