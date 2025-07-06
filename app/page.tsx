@@ -113,7 +113,7 @@ export default function KaalSarpDoshWebsite() {
         href="tel:+919243011008"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-24 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16 "
+        className="fixed bottom-6 right-4 z-50 bg-green-500 hover:bg-green-600 text-white rounded-full shadow-lg flex items-center justify-center w-16 h-16 "
         title="Call"
         style={{ boxShadow: '0 4px 24px 0 rgba(34,197,94,0.3)' }}
       >
@@ -135,7 +135,7 @@ export default function KaalSarpDoshWebsite() {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold text-orange-600">Kaal Sarp Dosh Puja Ujjain</div>
+            <div className="text-2xl font-bold text-orange-600">कालसर्प दोष पूजा उज्जैन </div>
 
             
             <nav className="hidden md:flex items-center space-x-8">
@@ -223,9 +223,11 @@ export default function KaalSarpDoshWebsite() {
               उज्जैन  मंदिर में अनुभवी पंडितों द्वारा किए गए प्रामाणिक वैदिक अनुष्ठानों से काल सर्प दोष से छुटकारा पाएं।
               महंत राजेंद्र दास शास्त्री जी, हम दुनिया में कहीं भी हों, आपके घर तक पवित्र वैदिक अनुष्ठान लाते हैं। महंत राजेंद्र दास शास्त्री जी के नेतृत्व में, जो 20 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वैदिक विद्वान और कर्मकांडी हैं, हमारा मिशन प्राचीन हिंदू धर्मग्रंथों में निहित शक्तिशाली, व्यक्तिगत अनुष्ठानों के माध्यम से भक्तों को जीवन की बाधाओं को दूर करने में मदद करना है।
             </p>
-            <p className="mt-4 text-xl font-semibold text-gray-800 animate-slide-in-left delay-300">
-             <Button className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-in-left delay-400"> Call us: +91 9243011008</Button>
-            </p>
+           
+<div className="flex justify-center">
+  <Button className="relative"> Call us: +91 9243011008</Button>
+</div>
+            
             <br/>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-slide-in-left delay-400">
               <Button
@@ -735,14 +737,14 @@ export default function KaalSarpDoshWebsite() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "Kaal Sarp Dosh Puja",
-                description: "Comprehensive puja to alleviate the effects of Kaal Sarp Dosh.",
+                title: "कालसर्प दोष पूजा",
+                description: "काल सर्प दोष के प्रभावों को कम करने के लिए व्यापक पूजा।",
 
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCbnzes9aOfkVtAl_x_Noy7Rl8-Fy3Bg3e4VfOciJFREHFO98flDRpw1vXG9EjGiBfegpSpZYyy8I2nP14pIHwrocBReGq3ymetI32UA9qeCLQ51wLVeeNNnmDiTqpSwy-PnjZsdVvIf5dCieaDaTSeZ5-88l7YtWraFa3JmOf8OWRs4D0GER3mbTmy6U/s500/Kaalsarp-Dosh.jpeg",
               },
               {
-                title: "Mangal Bhaat Pujan",
-                description: "Special puja for Mangal Dosh (Mars affliction) to bring harmony and prosperity.",
+                title: "मंगल भात पूजन ",
+                description: "मंगल दोष (मंगल ग्रह की पीड़ा) को शांत करने हेतु विशेष पूजा, जो जीवन में सौहार्द और समृद्धि लाती है।",
 
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_nzesWcad6VM43HEnqo5cbAT-hYF_oS8EoL617N9wY6oGTcM06jiVoZW1Xo5Bh-iz1mhz3rxk0Hl5BzrYSIGrfokAz9jk9rupZJJTUlAK1dYIWvCYT6B8RFm4-IR6ZkkMCguyoh0l9xF503P-yuUuv1V86ozGUt7cwy40EYtAG-6W7SS3ou4WwPETiNY/s275/images.jpeg",
               },
@@ -1036,9 +1038,9 @@ export default function KaalSarpDoshWebsite() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="transform hover:scale-105 transition-all duration-300">
-              <h3 className="text-xl font-bold mb-4 text-orange-400">Kaal Sarp Dosh Puja</h3>
+              <h3 className="text-xl font-bold mb-4 text-orange-400">कालसर्प दोष  पूजा </h3>
               <p className="text-gray-300 mb-4">
-                Authentic Vedic rituals for Kaal Sarp Dosh removal at the sacred ujjain Temple.
+              उज्जैन के पवित्र मंदिर में काल सर्प दोष निवारण के लिए प्रामाणिक वैदिक अनुष्ठान।
               </p>
               <div className="flex gap-3">
                 <a href="https://www.facebook.com/profile.php?id=100019534035147"><Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" /></a>
@@ -1067,12 +1069,14 @@ export default function KaalSarpDoshWebsite() {
               <h4 className="text-lg font-semibold mb-4">Services</h4>
               <ul className="space-y-2 text-gray-300">
                 {[
-                  "Anant Kaal Sarp Dosh Puja",
-                  "Kulik Kaal Sarp Dosh Puja",
-                  "Vasuki Kaal Sarp Dosh Puja",
-                  "Shankpal Kaal Sarp Dosh Puja",
-                  "Padam Kaal Sarp Dosh Puja",
-                ].map((service, index) => (
+                 "अनंत काल सर्प दोष पूजा",
+                " कुलिक काल सर्प दोष पूजा",
+                 
+                " वासुकी काल सर्प दोष पूजा",
+                 
+                " शंखपाल काल सर्प दोष पूजा",
+                 
+               "  पद्म काल सर्प दोष पूजा    "            ].map((service, index) => (
                   <li
                     key={index}
                     className="hover:text-white transition-colors duration-300 hover:translate-x-2 transform cursor-pointer"
@@ -1088,7 +1092,7 @@ export default function KaalSarpDoshWebsite() {
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-start gap-2 hover:text-white transition-colors duration-300">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0 animate-pulse" />
-                  <span className="text-sm">Ujjain, Madhya Pardesh</span>
+                  <span className="text-sm">उज्जैन मध्यप्रदेश </span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer">
                   <Phone className="w-4 h-4 animate-pulse" />
@@ -1103,7 +1107,7 @@ export default function KaalSarpDoshWebsite() {
           </div>
 
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p className="animate-fade-in">&copy; 2024 Kaal Sarp Dosh Puja ujjain. All rights reserved.</p>
+            <p className="animate-fade-in">&copy; 2025 Kaal Sarp Dosh Puja ujjain. All rights reserved.<br/> Made by <a style={{color:"blue"}} href="http://CodeWithCurious.com">CodeWithCurious.com</a> by ❤</p>
           </div>
         </div>
       </footer>
