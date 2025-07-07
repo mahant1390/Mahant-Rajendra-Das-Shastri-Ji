@@ -135,7 +135,7 @@ export default function KaalSarpDoshWebsite() {
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <div className="text-2xl font-bold text-orange-600">कालसर्प दोष पूजा उज्जैन </div>
+            <div className="text-2xl font-bold text-orange-600">कालसर्प निवारण पूजा उज्जैन </div>
 
             
             <nav className="hidden md:flex items-center space-x-8">
@@ -217,11 +217,11 @@ export default function KaalSarpDoshWebsite() {
         <div className="relative max-w-7xl mx-auto px-4 py-20 flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left animate-fade-in-up">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 mb-6 animate-slide-in-left">
-            महंत राजेंद्र दास शास्त्री जी में आपका स्वागत है - आपके विश्वसनीय वैदिक अनुष्ठान विशेषज्ञ
+            राजेश गुरु जी उज्जैन जी में आपका स्वागत है - आपके विश्वसनीय वैदिक अनुष्ठान विशेषज्ञ
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed animate-slide-in-left delay-200">
-              उज्जैन  मंदिर में अनुभवी पंडितों द्वारा किए गए प्रामाणिक वैदिक अनुष्ठानों से काल सर्प दोष से छुटकारा पाएं।
-              महंत राजेंद्र दास शास्त्री जी, हम दुनिया में कहीं भी हों, आपके घर तक पवित्र वैदिक अनुष्ठान लाते हैं। महंत राजेंद्र दास शास्त्री जी के नेतृत्व में, जो 20 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वैदिक विद्वान और कर्मकांडी हैं, हमारा मिशन प्राचीन हिंदू धर्मग्रंथों में निहित शक्तिशाली, व्यक्तिगत अनुष्ठानों के माध्यम से भक्तों को जीवन की बाधाओं को दूर करने में मदद करना है।
+              उज्जैन  मंदिर में अनुभवी पंडितों द्वारा किए गए प्रामाणिक वैदिक अनुष्ठानों से कालसर्प दोष से छुटकारा पाएं।
+              राजेश गुरु जी उज्जैन जी, हम दुनिया में कहीं भी हों, आपके घर तक पवित्र वैदिक अनुष्ठान लाते हैं। राजेश गुरु जी उज्जैन जी के नेतृत्व में, जो 20 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वैदिक विद्वान और कर्मकांडी हैं, हमारा मिशन प्राचीन हिंदू धर्मग्रंथों में निहित शक्तिशाली, व्यक्तिगत अनुष्ठानों के माध्यम से भक्तों को जीवन की बाधाओं को दूर करने में मदद करना है।
             </p>
            
 <div className="flex justify-center">
@@ -312,18 +312,19 @@ export default function KaalSarpDoshWebsite() {
             </div>
             <div className="space-y-6">
               <h2 className="text-4xl font-bold text-gray-800 mb-6 animate-slide-in-right">
-             About Mahant Rajendra Das Shastri Ji
+             About Rajesh Guru Ji Ujjain
               </h2>
               <div className="w-24 h-1 bg-orange-600 mb-6 animate-expand"></div>
               <div className="space-y-4 text-gray-600 text-lg leading-relaxed">
                 <p className="transform hover:translate-x-2 transition-transform duration-300">
-                काल सरप पूजा विशेषज्ञ होने के नाते गुरुजी को 20 वर्षो का अनुभव कालसरप पूजा आयोजित करने में प्राप्त है, क्योंकि गुरुजी ने आज तक बहुत सारे शांति पूजा की सीमा पार कर दी है, और सभी (यज्ञ) शांति या पूजा विधि के बाद तुरन्त उत्कृष्ट परिणाम प्राप्त करते हैंं।
+                कालसर्प निवारण पूजा विशेषज्ञ होने के नाते गुरुजी को 20 वर्षो का अनुभव कालसर्प निवारण पूजा आयोजित करने में प्राप्त है, क्योंकि गुरुजी ने आज तक बहुत सारे शांति पूजा की सीमा पार कर दी है, और सभी (यज्ञ) शांति या पूजा विधि के बाद तुरन्त उत्कृष्ट परिणाम प्राप्त करते हैंं।
                 </p>
                 <p className="transform hover:translate-x-2 transition-transform duration-300 delay-100">
-                महंत राजेन्द्र दास शास्त्री जी का जन्म भूमि महाकाल की नगरी उज्जैन(अवंतिका)है।पंडित जी को बाल काल से ही पंडिताई एवं दोष निवारण पुजा मे रूचि थी।पंडित जी के पिताजी एवं दादाजी भी यही कर्म करते थे,ओर वो भी गृह रहस्य एवं दोष निवारण के वेदिक पद्धति का ज्ञान गुरूजी के पास सिद्धस्त है।जिसके फलस्वरूप आज गुरूजी तुरंत उत्कृष्ट परिणाम प्राप्त करते है ओर जो भी यजमान की बाधा ,कष्ट ,पीड़ा ,रोग ,दोष होते है ।गुरूजी कहते है कि जो यजमान पुजा कराने आये बिल्कूल,सच्चे मन से ,श्रद्धा से ,भाव से,पुजन करे तो ही उत्कृष्ट परिणाम प्राप्त होगा नाकी तर्क-वितर्क करने से।
+                राजेश गुरु जी उज्जैन
+ जी का जन्म भूमि महाकाल की नगरी उज्जैन(अवंतिका)है।पंडित जी को बाल काल से ही पंडिताई एवं दोष निवारण पुजा मे रूचि थी।पंडित जी के पिताजी एवं दादाजी भी यही कर्म करते थे,ओर वो भी गृह रहस्य एवं दोष निवारण के वेदिक पद्धति का ज्ञान गुरूजी के पास सिद्धस्त है।जिसके फलस्वरूप आज गुरूजी तुरंत उत्कृष्ट परिणाम प्राप्त करते है ओर जो भी यजमान की बाधा ,कष्ट ,पीड़ा ,रोग ,दोष होते है ।गुरूजी कहते है कि जो यजमान पुजा कराने आये बिल्कूल,सच्चे मन से ,श्रद्धा से ,भाव से,पुजन करे तो ही उत्कृष्ट परिणाम प्राप्त होगा नाकी तर्क-वितर्क करने से।
                 </p>
                 <p className="transform hover:translate-x-2 transition-transform duration-300 delay-200">
-                कालसर्प शांति करने से 9 विभिन्न प्रकार के सांपों का आशीर्वाद प्राप्त होता है। कालसर्प शांति पूजा के साथ राहु और केतु पूजा सफलता के द्वार खोलती है। नाग की सोने की मूर्ति की पूजा करने से देवी लक्ष्मी की कृपा प्राप्त होती है।
+                कालसर्प शांति करने से 9 विभिन्न प्रकार के सांपों का आशीर्वाद प्राप्त होता है। कालसर्प निवारण शांति पूजा के साथ राहु और केतु पूजा सफलता के द्वार खोलती है। नाग की सोने की मूर्ति की पूजा करने से देवी लक्ष्मी की कृपा प्राप्त होती है।
                 </p>
               </div>
               <div className="grid grid-cols-2 gap-6 mt-8">
@@ -356,7 +357,7 @@ export default function KaalSarpDoshWebsite() {
             }`}
           >
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              महंत राजेंद्र दास शास्त्री जी की ऑनलाइन पूजा सेवा कैसे काम करती है?
+              राजेश गुरु जी उज्जैन जी की ऑनलाइन पूजा सेवा कैसे काम करती है?
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6 animate-expand"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -430,7 +431,7 @@ export default function KaalSarpDoshWebsite() {
               visibleSections.has("why-choose-us-section") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">महंत राजेंद्र दास शास्त्री जी को क्यों चुनें?
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">राजेश गुरु जी उज्जैन जी को क्यों चुनें?
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6 animate-expand"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -442,7 +443,7 @@ export default function KaalSarpDoshWebsite() {
             {[{
                 icon: <Award className="w-12 h-12 text-orange-600" />,
                 title: "अनुभवी और प्रामाणिक",
-                description: "महंत राजेंद्र दास शास्त्री जी को वैदिक अनुष्ठानों में 20 वर्षों से अधिक का अनुभव है, जो प्रामाणिक और प्रभावी पूजा सुनिश्चित करते हैं।",
+                description: "राजेश गुरु जी उज्जैन जी को वैदिक अनुष्ठानों में 20 वर्षों से अधिक का अनुभव है, जो प्रामाणिक और प्रभावी पूजा सुनिश्चित करते हैं।",
               },
               {
                 icon: <Users className="w-12 h-12 text-orange-600" />,
@@ -495,7 +496,8 @@ export default function KaalSarpDoshWebsite() {
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            कालसर्प पूजा विशेषज्ञ होने के नाते गुरुजी को 20 वर्षो का अनुभव पूजा आयोजित करने में प्राप्त है, पंडित महंत राजेन्द्र दास शास्त्री गुरूजी दुवारा कि गई सभी पुजाये अर्थात कालसर्प दोष पूजा,मंगल भात पूजा,पितृ दोष पूजा,महामृत्युंजय जाप,अर्क/कुंभ विवाह,नव ग्रह शांति,बगलामुखी माता पुजा एवं विशेष संतान प्राप्ति का उत्कृष्ट परिणाम तुरंत प्राप्त होता है।
+            कालसर्प निवारण पूजा विशेषज्ञ होने के नाते गुरुजी को 20 वर्षो का अनुभव पूजा आयोजित करने में प्राप्त है,राजेश गुरु जी उज्जैन
+            दुवारा कि गई सभी पुजाये अर्थात कालसर्प दोष निवारण पूजा,मंगल भात पूजा,पितृ दोष पूजा,महामृत्युंजय जाप,अर्क/कुंभ विवाह,नव ग्रह शांति,बगलामुखी माता पुजा एवं विशेष संतान प्राप्ति का उत्कृष्ट परिणाम तुरंत प्राप्त होता है।
             </p>
           </div>
 
@@ -599,7 +601,7 @@ export default function KaalSarpDoshWebsite() {
                 location: "मुंबई, महाराष्ट्र",
                 rating: 5,
                 review:
-                  "महंत राजेंद्र दास शास्त्री जी ने मेरी कालसर्प दोष पूजा पूरी निष्ठा से की। 3 महीने के भीतर, मुझे काम पर पदोन्नति मिली और मेरी पारिवारिक समस्याएं हल हो गईं। अत्यधिक अनुशंसित!",
+                  "राजेश गुरुजी उज्जैन जी ने मेरी कालसर्प दोष निवारण पूजा पूरी निष्ठा से की। 3 महीने के भीतर, मुझे काम पर पदोन्नति मिली और मेरी पारिवारिक समस्याएं हल हो गईं। अत्यधिक अनुशंसित!",
                 date: "2 सप्ताह पहले",
               },
               {
@@ -615,7 +617,7 @@ export default function KaalSarpDoshWebsite() {
                 location: "अहमदाबाद, गुजरात",
                 rating: 5,
                 review:
-                  "व्यवसाय में वर्षों के नुकसान के बाद, मैंने कालसर्प दोष पूजा करने का फैसला किया। परिणाम चमत्कारी थे! मेरा व्यवसाय बढ़ने लगा और सभी बाधाएं दूर हो गईं।",
+                  "व्यवसाय में वर्षों के नुकसान के बाद, मैंने कालसर्प दोस निवारण  दोष पूजा करने का फैसला किया। परिणाम चमत्कारी थे! मेरा व्यवसाय बढ़ने लगा और सभी बाधाएं दूर हो गईं।",
                 date: "3 सप्ताह पहले",
               },
               {
@@ -730,15 +732,15 @@ export default function KaalSarpDoshWebsite() {
             <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Puja Services</h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              हम आपकी विशिष्ट आवश्यकताओं और ग्रहों की स्थिति के आधार पर विभिन्न प्रकार की काल सर्प दोष पूजा प्रदान करते हैं।
+              हम आपकी विशिष्ट आवश्यकताओं और ग्रहों की स्थिति के आधार पर विभिन्न प्रकार की कालसर्प दोष निवारण पूजा  प्रदान करते हैं।
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: "कालसर्प दोष पूजा",
-                description: "काल सर्प दोष के प्रभावों को कम करने के लिए व्यापक पूजा।",
+                title: "कालसर्प दोष निवारण पूजा",
+                description: "कालसर्प दोष के प्रभावों को कम करने के लिए व्यापक पूजा।",
 
                 image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCbnzes9aOfkVtAl_x_Noy7Rl8-Fy3Bg3e4VfOciJFREHFO98flDRpw1vXG9EjGiBfegpSpZYyy8I2nP14pIHwrocBReGq3ymetI32UA9qeCLQ51wLVeeNNnmDiTqpSwy-PnjZsdVvIf5dCieaDaTSeZ5-88l7YtWraFa3JmOf8OWRs4D0GER3mbTmy6U/s500/Kaalsarp-Dosh.jpeg",
               },
@@ -1040,7 +1042,7 @@ export default function KaalSarpDoshWebsite() {
             <div className="transform hover:scale-105 transition-all duration-300">
               <h3 className="text-xl font-bold mb-4 text-orange-400">कालसर्प दोष  पूजा </h3>
               <p className="text-gray-300 mb-4">
-              उज्जैन के पवित्र मंदिर में काल सर्प दोष निवारण के लिए प्रामाणिक वैदिक अनुष्ठान।
+              उज्जैन के पवित्र मंदिर में कालसर्प दोष निवारण के लिए प्रामाणिक वैदिक अनुष्ठान।
               </p>
               <div className="flex gap-3">
                 <a href="https://www.facebook.com/profile.php?id=100019534035147"><Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer transform hover:scale-125 transition-all duration-300" /></a>
@@ -1069,14 +1071,14 @@ export default function KaalSarpDoshWebsite() {
               <h4 className="text-lg font-semibold mb-4">Services</h4>
               <ul className="space-y-2 text-gray-300">
                 {[
-                 "अनंत काल सर्प दोष पूजा",
-                " कुलिक काल सर्प दोष पूजा",
+                 "अनंत काल सर्प दोष निवारण पूजा",
+                " कुलिक काल सर्प दोष निवारण पूजा",
                  
-                " वासुकी काल सर्प दोष पूजा",
+                " वासुकी काल सर्प दोष निवारण पूजा",
                  
-                " शंखपाल काल सर्प दोष पूजा",
+                " शंखपाल काल सर्प दोष निवारण पूजा",
                  
-               "  पद्म काल सर्प दोष पूजा    "            ].map((service, index) => (
+               "  पद्म काल सर्प दोष निवारण पूजा    "            ].map((service, index) => (
                   <li
                     key={index}
                     className="hover:text-white transition-colors duration-300 hover:translate-x-2 transform cursor-pointer"
@@ -1092,7 +1094,8 @@ export default function KaalSarpDoshWebsite() {
               <div className="space-y-3 text-gray-300">
                 <div className="flex items-start gap-2 hover:text-white transition-colors duration-300">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0 animate-pulse" />
-                  <span className="text-sm">उज्जैन मध्यप्रदेश </span>
+                  <span className="text-sm">तिरुपति ड्रीम्स बी ब्लॉक मकान न 21 नागदा बाई पास उज्जैन म प्र पिन नंबर 456001
+                  </span>
                 </div>
                 <div className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer">
                   <Phone className="w-4 h-4 animate-pulse" />
@@ -1100,7 +1103,7 @@ export default function KaalSarpDoshWebsite() {
                 </div>
                 <div className="flex items-center gap-2 hover:text-white transition-colors duration-300 cursor-pointer">
                   <Mail className="w-4 h-4 animate-pulse" />
-                  <span>kalsarpdoshivaran@gmail.com</span>
+                  <span>kalsarppoojamahant@gmail.com</span>
                 </div>
               </div>
             </div>

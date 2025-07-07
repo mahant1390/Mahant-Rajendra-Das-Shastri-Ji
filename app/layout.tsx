@@ -105,7 +105,7 @@ export default function RootLayout({
                 "closes": "23:59"
               },
               "sameAs": [
-                "https://www.facebook.com/yourpage",
+                "https://www.facebook.com/",
                 "https://www.instagram.com/yourpage"
               ] 
             })
