@@ -247,7 +247,7 @@ export default function KaalSarpDoshWebsite() {
           </div>
 
           {/* Enquiry Form */}
-          <form action="https://getform.io/f/bpjpexyb" method="POST" className="w-full lg:w-96 animate-slide-in-right">
+          <form action="https://getform.io/f/bjjolznb" method="POST" className="w-full lg:w-96 animate-slide-in-right">
             <Card className="bg-white/95 backdrop-blur-sm shadow-2xl transform hover:scale-105 transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-2xl text-center text-gray-800">पूछताछ करें</CardTitle>
@@ -985,7 +985,7 @@ export default function KaalSarpDoshWebsite() {
                 <CardHeader>
                   <CardTitle className="text-2xl text-gray-800">Send us a Message</CardTitle>
                 </CardHeader>
-                <form action="https://getform.io/f/bpjpexyb" method="POST">
+                <form action="https://getform.io/f/bjjolznb" method="POST">
                 <CardContent className="space-y-4">
                   <div className="grid md:grid-cols-2 gap-4">
                     <div>
