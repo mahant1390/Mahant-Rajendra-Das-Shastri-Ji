@@ -329,8 +329,8 @@ export default function KaalSarpDoshWebsite() {
               </div>
               <div className="grid grid-cols-2 gap-6 mt-8">
                 {[
-                  { number: "20", label: "Exp" },
-                  { number: "11000", label: "Pooja attended" },
+                  { number: "20+", label: "Exp" },
+                  { number: "11000+", label: "Pooja attended" },
                   { number: "10+", label: "Number of types of pooja" },
                   { number: "4.9★", label: "Rating" },
                 ].map((stat, index) => (
@@ -937,7 +937,7 @@ export default function KaalSarpDoshWebsite() {
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">पता</h4>
                     <p className="text-gray-600">
-                      Kalyan Bhawan, Pavan Ganesh Nagar, ujjain, Shirsagaon, Madhya Pardesh 422212
+                    तिरुपति ड्रीम्स बी ब्लॉक मकान न 21 नागदा बाई पास उज्जैन म प्र पिन नंबर 456001
                     </p>
                   </div>
                 </div>
@@ -958,7 +958,7 @@ export default function KaalSarpDoshWebsite() {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800 mb-1">ईमेल</h4>
-                    <p className="text-gray-600">kalsarpdoshivaran@gmail.com</p>
+                    <p className="text-gray-600">kalsarppoojamahant@gmail.com</p>
                   </div>
                 </div>
               </div>
