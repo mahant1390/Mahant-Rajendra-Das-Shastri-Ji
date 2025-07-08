@@ -217,11 +217,11 @@ export default function KaalSarpDoshWebsite() {
         <div className="relative max-w-7xl mx-auto px-4 py-20 flex flex-col lg:flex-row items-center gap-12">
           <div className="flex-1 text-center lg:text-left animate-fade-in-up">
             <h1 className="text-4xl lg:text-6xl font-bold text-gray-800 mb-6 animate-slide-in-left">
-            राजेश गुरु जी उज्जैन जी में आपका स्वागत है - आपके विश्वसनीय वैदिक अनुष्ठान विशेषज्ञ
+            राजेश गुरु जी उज्जैन में आपका स्वागत है - आपके विश्वसनीय वैदिक अनुष्ठान विशेषज्ञ
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed animate-slide-in-left delay-200">
               उज्जैन  मंदिर में अनुभवी पंडितों द्वारा किए गए प्रामाणिक वैदिक अनुष्ठानों से कालसर्प दोष से छुटकारा पाएं।
-              राजेश गुरु जी उज्जैन जी, हम दुनिया में कहीं भी हों, आपके घर तक पवित्र वैदिक अनुष्ठान लाते हैं। राजेश गुरु जी उज्जैन जी के नेतृत्व में, जो 20 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वैदिक विद्वान और कर्मकांडी हैं, हमारा मिशन प्राचीन हिंदू धर्मग्रंथों में निहित शक्तिशाली, व्यक्तिगत अनुष्ठानों के माध्यम से भक्तों को जीवन की बाधाओं को दूर करने में मदद करना है।
+              राजेश गुरु जी उज्जैन जी, हम दुनिया में कहीं भी हों, आपके घर तक पवित्र वैदिक अनुष्ठान लाते हैं। राजेश गुरु जी उज्जैनके नेतृत्व में, जो 20 से अधिक वर्षों के अनुभव के साथ एक अनुभवी वैदिक विद्वान और कर्मकांडी हैं, हमारा मिशन प्राचीन हिंदू धर्मग्रंथों में निहित शक्तिशाली, व्यक्तिगत अनुष्ठानों के माध्यम से भक्तों को जीवन की बाधाओं को दूर करने में मदद करना है।
             </p>
            
 <div className="flex justify-center">
@@ -357,7 +357,7 @@ export default function KaalSarpDoshWebsite() {
             }`}
           >
             <h2 className="text-4xl font-bold text-gray-800 mb-4">
-              राजेश गुरु जी उज्जैन जी की ऑनलाइन पूजा सेवा कैसे काम करती है?
+              राजेश गुरु जी उज्जैनकी ऑनलाइन पूजा सेवा कैसे काम करती है?
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6 animate-expand"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -431,7 +431,7 @@ export default function KaalSarpDoshWebsite() {
               visibleSections.has("why-choose-us-section") ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
             }`}
           >
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">राजेश गुरु जी उज्जैन जी को क्यों चुनें?
+            <h2 className="text-4xl font-bold text-gray-800 mb-4">राजेश गुरु जी उज्जैनको क्यों चुनें?
             </h2>
             <div className="w-24 h-1 bg-orange-600 mx-auto mb-6 animate-expand"></div>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -443,7 +443,7 @@ export default function KaalSarpDoshWebsite() {
             {[{
                 icon: <Award className="w-12 h-12 text-orange-600" />,
                 title: "अनुभवी और प्रामाणिक",
-                description: "राजेश गुरु जी उज्जैन जी को वैदिक अनुष्ठानों में 20 वर्षों से अधिक का अनुभव है, जो प्रामाणिक और प्रभावी पूजा सुनिश्चित करते हैं।",
+                description: "राजेश गुरु जी उज्जैनको वैदिक अनुष्ठानों में 20 वर्षों से अधिक का अनुभव है, जो प्रामाणिक और प्रभावी पूजा सुनिश्चित करते हैं।",
               },
               {
                 icon: <Users className="w-12 h-12 text-orange-600" />,
@@ -601,7 +601,7 @@ export default function KaalSarpDoshWebsite() {
                 location: "मुंबई, महाराष्ट्र",
                 rating: 5,
                 review:
-                  "राजेश गुरुजी उज्जैन जी ने मेरी कालसर्प दोष निवारण पूजा पूरी निष्ठा से की। 3 महीने के भीतर, मुझे काम पर पदोन्नति मिली और मेरी पारिवारिक समस्याएं हल हो गईं। अत्यधिक अनुशंसित!",
+                  "राजेश गुरुजी उज्जैनने मेरी कालसर्प दोष निवारण पूजा पूरी निष्ठा से की। 3 महीने के भीतर, मुझे काम पर पदोन्नति मिली और मेरी पारिवारिक समस्याएं हल हो गईं। अत्यधिक अनुशंसित!",
                 date: "2 सप्ताह पहले",
               },
               {
